@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+  void main()
+{
+  char grade;
+  clrscr();
+  printf("enter a character:");
+  scanf("%c",&grade);
+  printf("character is:%c\nits ascii is %d",grade,grade);
+  getch();
+  }
